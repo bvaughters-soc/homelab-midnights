@@ -1,0 +1,9 @@
+# Environment variables — never commit secrets
+.env
+
+# Docker data volumes — too large for Git
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
