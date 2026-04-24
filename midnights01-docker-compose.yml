@@ -1,0 +1,132 @@
+networks:
+  # Main bridge — all network tools communicate here
+  midnights:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.22.0.0/24
+          gateway: 172.22.0.1
+
+services:
+
+  # ─────────────────────────────────────────────
+  # NETBOX — IP Address Management (IPAM)
+  # UI: http://netbox.home.lan (via Nginx on Showgirl01)
+  # UI: http://10.0.15.30:8000 (direct access)
+  # Industry standard for ISP/MSP network documentation
+  # ─────────────────────────────────────────────
+  netbox:
+    image: netboxcommunity/netbox:latest
+    container_name: netbox
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.10
+    ports:
+      - "8000:8080"
+    environment:
+      SUPERUSER_NAME: ${NETBOX_SUPERUSER}
+      SUPERUSER_EMAIL: ${NETBOX_SUPERUSER_EMAIL}
+      SUPERUSER_PASSWORD: ${NETBOX_SUPERUSER_PASSWORD}
+      SUPERUSER_API_TOKEN: ${NETBOX_API_TOKEN}
+      DB_HOST: netbox-db
+      DB_NAME: netbox
+      DB_USER: netbox
+      DB_PASSWORD: ${NETBOX_DB_PASSWORD}
+      REDIS_HOST: netbox-redis
+      REDIS_PORT: 6379
+      SECRET_KEY: ${NETBOX_SECRET_KEY}
+      ALLOWED_HOSTS: "netbox.home.lan 10.0.15.30 localhost"
+    volumes:
+      - ./data/netbox/media:/opt/netbox/netbox/media
+      - ./data/netbox/reports:/opt/netbox/netbox/reports
+      - ./data/netbox/scripts:/opt/netbox/netbox/scripts
+    depends_on:
+      - netbox-db
+      - netbox-redis
+
+  netbox-db:
+    image: postgres:15-alpine
+    container_name: netbox-db
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.11
+    environment:
+      POSTGRES_DB: netbox
+      POSTGRES_USER: netbox
+      POSTGRES_PASSWORD: ${NETBOX_DB_PASSWORD}
+    volumes:
+      - ./data/netbox-db:/var/lib/postgresql/data
+
+  netbox-redis:
+    image: redis:7-alpine
+    container_name: netbox-redis
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.12
+    volumes:
+      - ./data/netbox-redis:/data
+
+  # ─────────────────────────────────────────────
+  # OXIDIZED — Network Device Config Backup
+  # UI: http://oxidized.home.lan (via Nginx on Showgirl01)
+  # UI: http://10.0.15.30:8888 (direct access)
+  # Automatically backs up configs from Unifi devices to Git
+  # ─────────────────────────────────────────────
+  oxidized:
+    image: oxidized/oxidized:latest
+    container_name: oxidized
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.13
+    ports:
+      - "8888:8888"
+    environment:
+      CONFIG_RELOAD_INTERVAL: 600
+    volumes:
+      - ./data/oxidized:/home/oxidized/.config/oxidized
+      - ./config/oxidized:/home/oxidized/.config/oxidized/config.d
+
+  # ─────────────────────────────────────────────
+  # SMOKEPING — Latency & Packet Loss Monitoring
+  # UI: http://smokeping.home.lan (via Nginx on Showgirl01)
+  # UI: http://10.0.15.30:8025 (direct access)
+  # Monitors latency to UDM Pro, switches, and internet
+  # ─────────────────────────────────────────────
+  smokeping:
+    image: lscr.io/linuxserver/smokeping:latest
+    container_name: smokeping
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.14
+    ports:
+      - "8025:80"
+    environment:
+      TZ: ${TZ}
+      PUID: 1000
+      PGID: 1000
+    volumes:
+      - ./data/smokeping/config:/config
+      - ./data/smokeping/data:/data
+
+  # ─────────────────────────────────────────────
+  # UPTIME KUMA — Service Status Page
+  # UI: http://uptime.home.lan (via Nginx on Showgirl01)
+  # UI: http://10.0.15.30:3001 (direct access)
+  # Monitors all homelab services and shows status page
+  # ─────────────────────────────────────────────
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+    container_name: uptime-kuma
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.15
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./data/uptime-kuma:/app/data
