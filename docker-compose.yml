@@ -181,5 +181,24 @@ services:
         ipv4_address: 172.22.0.15
     ports:
       - "3001:3001"
+    environment:
+      - UPTIME_KUMA_DISABLE_FRAME_SAMEORIGIN=1
     volumes:
       - ./data/uptime-kuma:/app/data
+# ─────────────────────────────────────────────
+  # NOC DASHBOARD — Unified monitoring view
+  # UI: http://noc.home.lan   (via Nginx Proxy Manager on Showgirl01)
+  # UI: http://10.0.15.30:8080  (direct access)
+  # Static HTML served by nginx — no backend required
+  # ─────────────────────────────────────────────
+  noc-dashboard:
+    image: nginx:alpine
+    container_name: noc-dashboard
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.17
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data/noc:/usr/share/nginx/html:ro
