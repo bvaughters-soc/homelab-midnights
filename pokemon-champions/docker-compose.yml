@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  pokemon-champions:
+    build:
+      context: ./pokemon-champions
+      dockerfile: Dockerfile
+    container_name: pokemon-champions
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - PORT=3000

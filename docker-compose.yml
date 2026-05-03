@@ -202,3 +202,22 @@ services:
       - "8080:80"
     volumes:
       - ./data/noc:/usr/share/nginx/html:ro
+ # ─────────────────────────────────────────────
+  # POKÉMON CHAMPIONS RESOURCE — Pokédex tool
+  # UI: http://pokemon.home.lan (via Nginx on Showgirl01)
+  # UI: http://10.0.15.30:3000 (direct access)
+  # Stat viewer, EV spreads, speed tiers for Champions roster
+  # ─────────────────────────────────────────────
+  pokemon-champions:
+    build:
+      context: ./pokemon-champions
+      dockerfile: Dockerfile
+    container_name: pokemon-champions
+    restart: unless-stopped
+    networks:
+      midnights:
+        ipv4_address: 172.22.0.20
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
