@@ -40,3 +40,332 @@
 [2026-05-03] NetBox database backed up
 [2026-05-03] Old backups cleaned up
 [2026-05-03] Midnights01 backup complete
+[2026-05-04] Starting Midnights01 backup...
+[2026-05-04] Compose file backed up
+[2026-05-04] Config files backed up
+[2026-05-04] NetBox database backed up
+[2026-05-04] Old backups cleaned up
+[2026-05-04] Midnights01 backup complete
+[2026-05-05] Starting Midnights01 backup...
+[2026-05-05] Compose file backed up
+[2026-05-05] Config files backed up
+[2026-05-05] NetBox database backed up
+[2026-05-05] Old backups cleaned up
+[2026-05-05] Midnights01 backup complete
+[2026-05-06] Starting Midnights01 backup...
+[2026-05-06] Compose file backed up
+[2026-05-06] Config files backed up
+[2026-05-06] NetBox database backed up
+[2026-05-06] Old backups cleaned up
+[2026-05-06] Midnights01 backup complete
+[2026-05-07] Starting Midnights01 backup...
+[2026-05-07] Compose file backed up
+[2026-05-07] Config files backed up
+[2026-05-07] NetBox database backed up
+[2026-05-07] Old backups cleaned up
+[2026-05-07] Midnights01 backup complete
+[2026-05-08] Starting Midnights01 backup...
+[2026-05-08] Compose file backed up
+[2026-05-08] Config files backed up
+[2026-05-08] NetBox database backed up
+[2026-05-08] Old backups cleaned up
+[2026-05-08] Midnights01 backup complete
+[2026-05-09] Starting Midnights01 backup...
+[2026-05-09] Compose file backed up
+[2026-05-09] Config files backed up
+[2026-05-09] NetBox database backed up
+[2026-05-09] Old backups cleaned up
+[2026-05-09] Midnights01 backup complete
+[2026-05-10] Starting Midnights01 backup...
+[2026-05-10] Compose file backed up
+[2026-05-10] Config files backed up
+[2026-05-10] NetBox database backed up
+[2026-05-10] Old backups cleaned up
+[2026-05-10] Midnights01 backup complete
+[2026-05-11] Starting Midnights01 backup...
+[2026-05-11] Compose file backed up
+[2026-05-11] Config files backed up
+[2026-05-11] NetBox database backed up
+[2026-05-11] Old backups cleaned up
+[2026-05-11] Midnights01 backup complete
+[2026-05-12] Starting Midnights01 backup...
+[2026-05-12] Compose file backed up
+[2026-05-12] Config files backed up
+[2026-05-12] NetBox database backed up
+[2026-05-12] Old backups cleaned up
+[2026-05-12] Midnights01 backup complete
+[2026-05-13] Starting Midnights01 backup...
+[2026-05-13] Compose file backed up
+[2026-05-13] Config files backed up
+[2026-05-13] NetBox database backed up
+[2026-05-13] Old backups cleaned up
+[2026-05-13] Midnights01 backup complete
+[2026-05-14] Starting Midnights01 backup...
+[2026-05-14] Compose file backed up
+[2026-05-14] Config files backed up
+[2026-05-14] NetBox database backed up
+[2026-05-14] Old backups cleaned up
+[2026-05-14] Midnights01 backup complete
+[2026-05-15] Starting Midnights01 backup...
+[2026-05-15] Compose file backed up
+[2026-05-15] Config files backed up
+[2026-05-15] NetBox database backed up
+[2026-05-15] Old backups cleaned up
+[2026-05-15] Midnights01 backup complete
+[2026-05-16] Starting Midnights01 backup...
+[2026-05-16] Compose file backed up
+[2026-05-16] Config files backed up
+[2026-05-16] NetBox database backed up
+[2026-05-16] Old backups cleaned up
+[2026-05-16] Midnights01 backup complete
+[2026-05-17] Starting Midnights01 backup...
+[2026-05-17] Compose file backed up
+[2026-05-17] Config files backed up
+[2026-05-17] NetBox database backed up
+[2026-05-17] Old backups cleaned up
+[2026-05-17] Midnights01 backup complete
+[2026-05-18] Starting Midnights01 backup...
+[2026-05-18] Compose file backed up
+[2026-05-18] Config files backed up
+[2026-05-18] NetBox database backed up
+[2026-05-18] Old backups cleaned up
+[2026-05-18] Midnights01 backup complete
+[2026-05-19] Starting Midnights01 backup...
+[2026-05-19] Compose file backed up
+[2026-05-19] Config files backed up
+[2026-05-19] NetBox database backed up
+[2026-05-19] Old backups cleaned up
+[2026-05-19] Midnights01 backup complete
+[2026-05-20] Starting Midnights01 backup...
+[2026-05-20] Compose file backed up
+[2026-05-20] Config files backed up
+[2026-05-20] NetBox database backed up
+[2026-05-20] Old backups cleaned up
+[2026-05-20] Midnights01 backup complete
+[2026-05-21] Starting Midnights01 backup...
+[2026-05-21] Compose file backed up
+[2026-05-21] Config files backed up
+[2026-05-21] NetBox database backed up
+[2026-05-21] Old backups cleaned up
+[2026-05-21] Midnights01 backup complete
+[2026-05-22] Starting Midnights01 backup...
+[2026-05-22] Compose file backed up
+[2026-05-22] Config files backed up
+[2026-05-22] NetBox database backed up
+[2026-05-22] Old backups cleaned up
+[2026-05-22] Midnights01 backup complete
+[2026-05-23] Starting Midnights01 backup...
+[2026-05-23] Compose file backed up
+[2026-05-23] Config files backed up
+[2026-05-23] NetBox database backed up
+[2026-05-23] Old backups cleaned up
+[2026-05-23] Midnights01 backup complete
+[2026-05-26] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-05-26.yml': No such file or directory
+[2026-05-26] Compose file backed up
+[2026-05-26] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-05-26.sql: No such file or directory
+[2026-05-26] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-05-26] Old backups cleaned up
+[2026-05-26] Midnights01 backup complete
+[2026-05-27] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-05-27.yml': No such file or directory
+[2026-05-27] Compose file backed up
+[2026-05-27] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-05-27.sql: No such file or directory
+[2026-05-27] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-05-27] Old backups cleaned up
+[2026-05-27] Midnights01 backup complete
+[2026-05-28] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-05-28.yml': No such file or directory
+[2026-05-28] Compose file backed up
+[2026-05-28] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-05-28.sql: No such file or directory
+[2026-05-28] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-05-28] Old backups cleaned up
+[2026-05-28] Midnights01 backup complete
+[2026-05-29] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-05-29.yml': No such file or directory
+[2026-05-29] Compose file backed up
+[2026-05-29] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-05-29.sql: No such file or directory
+[2026-05-29] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-05-29] Old backups cleaned up
+[2026-05-29] Midnights01 backup complete
+[2026-05-30] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-05-30.yml': No such file or directory
+[2026-05-30] Compose file backed up
+[2026-05-30] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-05-30.sql: No such file or directory
+[2026-05-30] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-05-30] Old backups cleaned up
+[2026-05-30] Midnights01 backup complete
+[2026-05-31] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-05-31.yml': No such file or directory
+[2026-05-31] Compose file backed up
+[2026-05-31] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-05-31.sql: No such file or directory
+[2026-05-31] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-05-31] Old backups cleaned up
+[2026-05-31] Midnights01 backup complete
+[2026-06-01] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-01.yml': No such file or directory
+[2026-06-01] Compose file backed up
+[2026-06-01] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-01.sql: No such file or directory
+[2026-06-01] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-01] Old backups cleaned up
+[2026-06-01] Midnights01 backup complete
+[2026-06-02] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-02.yml': No such file or directory
+[2026-06-02] Compose file backed up
+[2026-06-02] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-02.sql: No such file or directory
+[2026-06-02] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-02] Old backups cleaned up
+[2026-06-02] Midnights01 backup complete
+[2026-06-03] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-03.yml': No such file or directory
+[2026-06-03] Compose file backed up
+[2026-06-03] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-03.sql: No such file or directory
+[2026-06-03] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-03] Old backups cleaned up
+[2026-06-03] Midnights01 backup complete
+[2026-06-04] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-04.yml': No such file or directory
+[2026-06-04] Compose file backed up
+[2026-06-04] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-04.sql: No such file or directory
+[2026-06-04] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-04] Old backups cleaned up
+[2026-06-04] Midnights01 backup complete
+[2026-06-05] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-05.yml': No such file or directory
+[2026-06-05] Compose file backed up
+[2026-06-05] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-05.sql: No such file or directory
+[2026-06-05] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-05] Old backups cleaned up
+[2026-06-05] Midnights01 backup complete
+[2026-06-06] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-06.yml': No such file or directory
+[2026-06-06] Compose file backed up
+[2026-06-06] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-06.sql: No such file or directory
+[2026-06-06] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-06] Old backups cleaned up
+[2026-06-06] Midnights01 backup complete
+[2026-06-07] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-07.yml': No such file or directory
+[2026-06-07] Compose file backed up
+[2026-06-07] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-07.sql: No such file or directory
+[2026-06-07] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-07] Old backups cleaned up
+[2026-06-07] Midnights01 backup complete
+[2026-06-08] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-08.yml': No such file or directory
+[2026-06-08] Compose file backed up
+[2026-06-08] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-08.sql: No such file or directory
+[2026-06-08] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-08] Old backups cleaned up
+[2026-06-08] Midnights01 backup complete
+[2026-06-09] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-09.yml': No such file or directory
+[2026-06-09] Compose file backed up
+[2026-06-09] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-09.sql: No such file or directory
+[2026-06-09] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-09] Old backups cleaned up
+[2026-06-09] Midnights01 backup complete
+[2026-06-10] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-10.yml': No such file or directory
+[2026-06-10] Compose file backed up
+[2026-06-10] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-10.sql: No such file or directory
+[2026-06-10] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-10] Old backups cleaned up
+[2026-06-10] Midnights01 backup complete
+[2026-06-11] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-11.yml': No such file or directory
+[2026-06-11] Compose file backed up
+[2026-06-11] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-11.sql: No such file or directory
+[2026-06-11] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-11] Old backups cleaned up
+[2026-06-11] Midnights01 backup complete
+[2026-06-12] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-12.yml': No such file or directory
+[2026-06-12] Compose file backed up
+[2026-06-12] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-12.sql: No such file or directory
+[2026-06-12] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-12] Old backups cleaned up
+[2026-06-12] Midnights01 backup complete
+[2026-06-13] Starting Midnights01 backup...
+cp: cannot create regular file '/mnt/wdmc/midnights01/compose/docker-compose-2026-06-13.yml': No such file or directory
+[2026-06-13] Compose file backed up
+[2026-06-13] Config files backed up
+/home/bvaughters/homelab-midnights/backup.sh: line 21: /mnt/wdmc/midnights01/databases/netbox-2026-06-13.sql: No such file or directory
+[2026-06-13] NetBox database backed up
+find: ‘/mnt/wdmc/midnights01/compose’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/configs’: No such file or directory
+find: ‘/mnt/wdmc/midnights01/databases’: No such file or directory
+[2026-06-13] Old backups cleaned up
+[2026-06-13] Midnights01 backup complete
